@@ -5,10 +5,19 @@ import TeamStyleOneImg1 from '../../assets/images/team/1.png';
 import TeamStyleOneImg2 from '../../assets/images/team/2.png';
 import TeamStyleOneImg3 from '../../assets/images/team/3.png';
 
+import alan from '../../assets/bg/alan.png'
+import diouf from '../../assets/bg/diouf.jpg'
+import bryan from '../../assets/bg/bryan.jpg'
+import jay from '../../assets/bg/jay.jpg'
+import rm from '../../assets/bg/rm.jpg'
+
+
+
+
 const HomeTeamTwoData = [
     {
         id: uuidv4(),
-        img: TeamStyleOneImg1,
+        img: bryan,
         name: 'Bryan Paul Roy',
         position: 'B.S. ECE',
         fbLink: '/',
@@ -19,7 +28,7 @@ const HomeTeamTwoData = [
 
     {
         id: uuidv4(),
-        img: TeamStyleOneImg2,
+        img: rm,
         name: 'Ritchel Mae Suficiencia',
         position: 'B.S. ECE',
         fbLink: '/',
@@ -30,7 +39,7 @@ const HomeTeamTwoData = [
 
     {
         id: uuidv4(),
-        img: TeamStyleOneImg3,
+        img: diouf,
         name: 'Diouf Daven Juntado',
         position: 'B.S. ECE',
         fbLink: '/',
@@ -40,7 +49,7 @@ const HomeTeamTwoData = [
     },
     {
         id: uuidv4(),
-        img: TeamStyleOneImg3,
+        img: alan,
         name: 'Alanray Elangos',
         position: 'B.S. SE',
         fbLink: '/',
@@ -50,7 +59,7 @@ const HomeTeamTwoData = [
     },
     {
         id: uuidv4(),
-        img: TeamStyleOneImg3,
+        img: jay,
         name: 'Jay Bandiola',
         position: 'B.S. SE',
         fbLink: '/',

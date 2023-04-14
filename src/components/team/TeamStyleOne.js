@@ -5,7 +5,7 @@ import TeamStyleOneImg1 from '../../assets/images/team/1.png';
 import TeamStyleOneImg2 from '../../assets/images/team/2.png';
 import TeamStyleOneImg3 from '../../assets/images/team/3.png';
 
-import alan from '../../assets/bg/alan.png'
+import alan from '../../assets/bg/alan.jpg'
 import diouf from '../../assets/bg/diouf.jpg'
 import bryan from '../../assets/bg/bryan.jpg'
 import jay from '../../assets/bg/jay.jpg'
@@ -16,6 +16,7 @@ import rm from '../../assets/bg/rm.jpg'
 
 const HomeTeamTwoData = [
     {
+        
         id: uuidv4(),
         img: bryan,
         name: 'Bryan Paul Roy',

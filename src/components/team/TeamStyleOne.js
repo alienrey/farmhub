@@ -9,8 +9,8 @@ const HomeTeamTwoData = [
     {
         id: uuidv4(),
         img: TeamStyleOneImg1,
-        name: 'Nicolas Murkari',
-        position: 'Gardener',
+        name: 'Bryan Paul Roy',
+        position: 'B.S. ECE',
         fbLink: '/',
         twitterLink: '/',
         instagramLink: '/',
@@ -20,8 +20,8 @@ const HomeTeamTwoData = [
     {
         id: uuidv4(),
         img: TeamStyleOneImg2,
-        name: 'Meri Sheraia',
-        position: 'Gardener',
+        name: 'Ritchel Mae Suficiencia',
+        position: 'B.S. ECE',
         fbLink: '/',
         twitterLink: '/',
         instagramLink: '/',
@@ -31,8 +31,28 @@ const HomeTeamTwoData = [
     {
         id: uuidv4(),
         img: TeamStyleOneImg3,
-        name: 'Nicolas Murkari',
-        position: 'Gardener',
+        name: 'Diouf Daven Juntado',
+        position: 'B.S. ECE',
+        fbLink: '/',
+        twitterLink: '/',
+        instagramLink: '/',
+        pinterestLink: '/',
+    },
+    {
+        id: uuidv4(),
+        img: TeamStyleOneImg3,
+        name: 'Alanray Elangos',
+        position: 'B.S. SE',
+        fbLink: '/',
+        twitterLink: '/',
+        instagramLink: '/',
+        pinterestLink: '/',
+    },
+    {
+        id: uuidv4(),
+        img: TeamStyleOneImg3,
+        name: 'Jay Bandiola',
+        position: 'B.S. SE',
         fbLink: '/',
         twitterLink: '/',
         instagramLink: '/',
@@ -68,15 +88,15 @@ const TeamStyleOne = () => {
         <>
             <div className="team-area white-bg pt-110 pb-110">
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center"> {/* Add justify-content-center class */}
                         <div className="col-xl-12">
                             <div className="section-title text-center mb-70">
-                                <span>Team Members</span>
-                                <h2>Dedicated Members 20+</h2>
+                                <span>Advanto</span>
+                                <h2>The Team Behind FarmHub</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {HomeTeamTwoData.map((data) => (
                             <TeamStyleOneItem
                                 key={data.id}
@@ -95,5 +115,7 @@ const TeamStyleOne = () => {
         </>
     )
 }
+
+
 
 export default TeamStyleOne;

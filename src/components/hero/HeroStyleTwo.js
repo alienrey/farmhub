@@ -2,14 +2,15 @@ import React from 'react';
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import { v4 as uuidv4 } from 'uuid';
 import Slider from "react-slick";
-import HeroStyleTwoImg1 from '../../assets/images/hero/1.jpg';
-import HeroStyleTwoImg2 from '../../assets/images/hero/2.jpg';
+import bg1 from "../../assets/bg/1.png"
+import bg2 from "../../assets/bg/2.png"
+
 
 const HeroStyleTwoData = [
     
     {
         id: uuidv4(),
-        img: HeroStyleTwoImg1,
+        img: bg2,
         heading: 'FarmHub',
         description: 'The ultimate solution for hassle-free plant care! Our cutting-edge device takes the guesswork out of plant care by automating watering and lighting, and providing real-time monitoring through our user-friendly app. Say goodbye to wilted plants and hello to thriving, healthy greenery with FarmHub by Advanto!',
         btnLink: '/',
@@ -18,9 +19,9 @@ const HeroStyleTwoData = [
     
     {
         id: uuidv4(),
-        img: HeroStyleTwoImg2,
+        img: bg1,
         heading: 'Advanto',
-        description: "Introducing Advanto, the pioneering brand behind GreenGardenPro, the ultimate all-in-one solution for automated plant care. Advanto is revolutionizing the way we care for our plants by combining cutting-edge technology with sleek design to create a device that takes the guesswork out of plant care and makes it easier than ever to grow healthy, vibrant plants.",
+        description: "The pioneering brand behind FarmHub, the ultimate all-in-one solution for automated plant care. Advanto is revolutionizing the way we care for our plants by combining cutting-edge technology with sleek design to create a device that takes the guesswork out of plant care and makes it easier than ever to grow healthy, vibrant plants.",
         btnLink: '/',
         btnText: 'Our Solution',
     },
@@ -37,7 +38,6 @@ const HeroStyleTwoItem = ({ img, heading, description, btnLink, btnText }) => {
                             <div className="slide-content-wrapper-1">
                                 <h1>{heading}</h1>
                                 <p>{description}</p>
-                                <a href={btnLink} className="l-btn">{btnText}</a>
                             </div>
                         </div>
                     </div>

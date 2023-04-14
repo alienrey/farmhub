@@ -11,44 +11,37 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 const ServiceTwoData = [
     {
         id: uuidv4(),
-        heading: 'Landscape Design',
-        description: 'There are many variations of passages the majority have suffered alteration form',
-        img: Icon_landscape,
-        serviceLink: '/',
-    },
-    {
-        id: uuidv4(),
-        heading: 'Plant Growing',
-        description: 'There are many variations of passages the majority have suffered alteration form',
+        heading: 'Increased Plant Growth',
+        description: 'Ensures consistent supply of water and nutrients. Results in faster and healthier growth.',
         img: Icon_growing,
         serviceLink: '/',
     },
     {
         id: uuidv4(),
-        heading: 'Branch Cutting',
-        description: 'There are many variations of passages the majority have suffered alteration form',
-        img: Icon_harvest,
+        heading: 'Saves time and labor',
+        description: 'No need for manual watering. It saves significant time and labor.',
+        img: Icon_rubbish,
         serviceLink: '/',
     },
     {
         id: uuidv4(),
-        heading: 'Flower Scaping',
-        description: 'There are many variations of passages the majority have suffered alteration form',
+        heading: 'Precision and control',
+        description: 'Enables precise control of watering schedule and amount.',
+        img: Icon_landscape,
+        serviceLink: '/',
+    },
+    {
+        id: uuidv4(),
+        heading: 'Cost-effective',
+        description: 'Cheaper than purchasing a commercial system. It provides cost-effective control over irrigation.',
         img: Icon_flower,
         serviceLink: '/',
     },
     {
         id: uuidv4(),
-        heading: 'Tree Planting',
-        description: 'There are many variations of passages the majority have suffered alteration form',
+        heading: 'ECO-FRIENDLY',
+        description: 'Promotes sustainable agriculture, food security and reducing waste',
         img: Icon_tree,
-        serviceLink: '/',
-    },
-    {
-        id: uuidv4(),
-        heading: 'Rubbish Removal',
-        description: 'There are many variations of passages the majority have suffered alteration form',
-        img: Icon_rubbish,
         serviceLink: '/',
     },
 
@@ -79,12 +72,12 @@ const ServiceStyleTwo = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="section-title text-center mb-70">
-                                <span>Our Services</span>
-                                <h2>Why will you choose our <br /> services?</h2>
+                                <span>FarmHub</span>
+                                <h2>What Are The Benefits?</h2>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {ServiceTwoData.map((data) => (
                             <ServiceTwoItem
                                 key={data.id}

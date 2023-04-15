@@ -10,7 +10,7 @@ const QueryFormStyleOne = () => {
                         <div className="col-xl-4 col-lg-4 col-md-12">
                             <div className="section-title quote-title mb-40">
                                 <h2>Make An Inquiry</h2>
-                                <p>Our team at Advanto will be ready to answer any questions or even showcase FarmHub to you.</p>
+                                <p>Our team at Advanto will be ready to answer any questions or even showcase FarmLogic to you.</p>
                             </div>
                         </div>
                         <div className="col-xl-8 col-lg-8 col-md-12">

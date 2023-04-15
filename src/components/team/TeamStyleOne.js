@@ -102,7 +102,7 @@ const TeamStyleOne = () => {
                         <div className="col-xl-12">
                             <div className="section-title text-center mb-70">
                                 <span>Advanto</span>
-                                <h2>The Team Behind FarmHub</h2>
+                                <h2>The Team Behind FarmLogic</h2>
                             </div>
                         </div>
                     </div>

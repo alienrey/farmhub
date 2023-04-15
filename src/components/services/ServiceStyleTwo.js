@@ -72,7 +72,7 @@ const ServiceStyleTwo = () => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="section-title text-center mb-70">
-                                <span>FarmHub</span>
+                                <span>FarmLogic</span>
                                 <h2>What Are The Benefits?</h2>
                             </div>
                         </div>
